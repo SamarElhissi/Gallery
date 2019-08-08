@@ -1,0 +1,12 @@
+{
+  "title": "Creative",
+  "name": "startbootstrap-creative",
+  "version": "5.1.7",
+  "scripts": {
+    "start": "start http://localhost:8003 & node server"
+  },
+  "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}

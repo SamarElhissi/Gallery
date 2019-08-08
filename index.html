@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/helpers.css" />
+      <link rel="stylesheet" href="css/layout.css" />
+      <link rel="stylesheet" href="css/gallery.css" />
+      <link rel="stylesheet" href="css/thumbnails.css" />
+      <link rel="stylesheet" href="css/homepage.css" />
+   </head>
+   <body>
+      <header class="island">
+         <h1>Nature images</h1>
+
+      </header>
+
+      <div class="island thumbnails">
+         <ul class="js-thumbnails__list thumbnails__list"></ul>
+         <ol class="js-thumbnails__pager thumbnails__pager"></ol>
+      </div>
+
+
+      <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h4 class="modal-title" id="image-gallery-title"></h4>
+                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                     </button>
+                 </div>
+                 <div class="modal-body">
+                     <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+      <script src="js/utility.js"></script>
+      <script src="js/gallery.js"></script>
+      <script src="js/flickr.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
